@@ -32,3 +32,6 @@ pip install pandas numpy scipy statsmodels scikit-learn matplotlib seaborn jupyt
 jupyter notebook credit_default_drivers.ipynb
 ```
 The notebook is saved **with outputs**, so GitHub renders every table and chart without running anything.
+
+---
+© 2026 Ahmed Abdulsalam. All rights reserved. See [LICENSE](../LICENSE).

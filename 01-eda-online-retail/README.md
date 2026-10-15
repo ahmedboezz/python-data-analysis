@@ -68,3 +68,6 @@ jupyter nbconvert --to notebook --execute --inplace eda_online_retail.ipynb
 ```
 
 The notebook source lives in [`build_notebook.py`](build_notebook.py) so changes are easy to review. Figures are saved to [`figures/`](figures).
+
+---
+© 2026 Ahmed Abdulsalam. All rights reserved. See [LICENSE](../LICENSE).
