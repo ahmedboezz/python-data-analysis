@@ -1,0 +1,165 @@
+{
+ "population": 7347,
+ "bads": 204,
+ "bad_rate": 0.0278,
+ "univariate": {
+  "EmploymentSector": {
+   "chi2_p": 0.0,
+   "cramers_v": 0.1571
+  },
+  "Channel": {
+   "chi2_p": 0.0,
+   "cramers_v": 0.1461
+  },
+  "ProductCode": {
+   "chi2_p": 0.0,
+   "cramers_v": 0.138
+  },
+  "score_band": {
+   "chi2_p": 0.0,
+   "cramers_v": 0.1253
+  },
+  "dbr_band": {
+   "chi2_p": 0.0,
+   "cramers_v": 0.1225
+  },
+  "campaign_H2_2024": {
+   "chi2_p": 0.0,
+   "cramers_v": 0.0572
+  }
+ },
+ "bad_rate_by_score": {
+  "<600": 0.1056,
+  "600-679": 0.039,
+  "680-749": 0.0211,
+  "750+": 0.0036
+ },
+ "bad_rate_by_channel": {
+  "Branch": 0.0182,
+  "Broker": 0.0797,
+  "Car Dealer": 0.0103,
+  "Merchant Partner": 0.0318,
+  "Mobile App": 0.0125
+ },
+ "score_bad_median": 663.5,
+ "score_good_median": 696.0,
+ "score_mw_p": 2.62e-18,
+ "vif_max": 2.41,
+ "odds_ratios": {
+  "Channel=Broker": {
+   "odds_ratio": 4.1462,
+   "ci_low": 2.7718,
+   "ci_high": 6.2023,
+   "p_value": 0.0
+  },
+  "Channel=Car Dealer": {
+   "odds_ratio": 1.2226,
+   "ci_low": 0.6162,
+   "ci_high": 2.4255,
+   "p_value": 0.5653
+  },
+  "Channel=Merchant Partner": {
+   "odds_ratio": 5.1136,
+   "ci_low": 2.3201,
+   "ci_high": 11.2705,
+   "p_value": 0.0001
+  },
+  "Channel=Mobile App": {
+   "odds_ratio": 1.2609,
+   "ci_low": 0.6974,
+   "ci_high": 2.2796,
+   "p_value": 0.4429
+  },
+  "EmploymentSector=Business": {
+   "odds_ratio": 7.5378,
+   "ci_low": 3.6429,
+   "ci_high": 15.597,
+   "p_value": 0.0
+  },
+  "EmploymentSector=Military": {
+   "odds_ratio": 1.3412,
+   "ci_low": 0.4952,
+   "ci_high": 3.6325,
+   "p_value": 0.5636
+  },
+  "EmploymentSector=Private": {
+   "odds_ratio": 4.1091,
+   "ci_low": 2.4546,
+   "ci_high": 6.8788,
+   "p_value": 0.0
+  },
+  "EmploymentSector=Self-Employed": {
+   "odds_ratio": 8.1811,
+   "ci_low": 4.4055,
+   "ci_high": 15.1927,
+   "p_value": 0.0
+  },
+  "EmploymentSector=Semi-Government": {
+   "odds_ratio": 1.6829,
+   "ci_low": 0.7272,
+   "ci_high": 3.8946,
+   "p_value": 0.224
+  },
+  "score_50": {
+   "odds_ratio": 0.6382,
+   "ci_low": 0.5506,
+   "ci_high": 0.7398,
+   "p_value": 0.0
+  },
+  "dbr_10pp": {
+   "odds_ratio": 1.299,
+   "ci_low": 1.1585,
+   "ci_high": 1.4565,
+   "p_value": 0.0
+  },
+  "log_principal": {
+   "odds_ratio": 1.0524,
+   "ci_low": 0.7884,
+   "ci_high": 1.405,
+   "p_value": 0.7288
+  },
+  "TenorMonths": {
+   "odds_ratio": 1.0019,
+   "ci_low": 0.9878,
+   "ci_high": 1.0161,
+   "p_value": 0.7932
+  },
+  "campaign_H2_2024": {
+   "odds_ratio": 1.5576,
+   "ci_low": 1.1411,
+   "ci_high": 2.1263,
+   "p_value": 0.0053
+  }
+ },
+ "pseudo_r2": 0.1956,
+ "auc": 0.8214,
+ "gini": 0.6427,
+ "ks": 0.5054,
+ "top2_decile_capture": 0.623,
+ "policies": {
+  "model: decline worst 0%": {
+   "approval_rate": 1.0,
+   "bad_rate": 0.0277
+  },
+  "model: decline worst 5%": {
+   "approval_rate": 0.9497,
+   "bad_rate": 0.0196
+  },
+  "model: decline worst 10%": {
+   "approval_rate": 0.8998,
+   "bad_rate": 0.0166
+  },
+  "model: decline worst 15%": {
+   "approval_rate": 0.8499,
+   "bad_rate": 0.016
+  },
+  "model: decline worst 20%": {
+   "approval_rate": 0.8,
+   "bad_rate": 0.013
+  },
+  "rule: decline score < 600": {
+   "approval_rate": 0.9583,
+   "bad_rate": 0.0232
+  }
+ }
+}

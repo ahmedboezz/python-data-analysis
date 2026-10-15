@@ -1,0 +1,59 @@
+{
+ "required_n_per_group": 16778,
+ "raw_rows": 84330,
+ "contaminated_users": 330,
+ "bot_rows": 251,
+ "clean_users": 83419,
+ "n_control": 41626,
+ "n_treatment": 41793,
+ "srm_p": 0.5631,
+ "conv_control": 0.5782,
+ "conv_treatment": 0.6017,
+ "abs_lift": 0.0235,
+ "rel_lift": 0.0406,
+ "z": 6.9,
+ "p_value": 5.38e-12,
+ "ci_low": 0.0168,
+ "ci_high": 0.0302,
+ "lift_days_1_3": 0.0418,
+ "lift_days_4_14": 0.0185,
+ "segments": {
+  "Android": {
+   "control": 0.5559,
+   "treatment": 0.5797,
+   "lift_pp": 2.3845,
+   "p_value": 0.0,
+   "significant_bonferroni": true
+  },
+  "Web": {
+   "control": 0.5341,
+   "treatment": 0.5215,
+   "lift_pp": -1.2538,
+   "p_value": 0.1337,
+   "significant_bonferroni": false
+  },
+  "iOS": {
+   "control": 0.6139,
+   "treatment": 0.6502,
+   "lift_pp": 3.6279,
+   "p_value": 0.0,
+   "significant_bonferroni": true
+  }
+ },
+ "aov_control": 349.46,
+ "aov_treatment": 348.0,
+ "aov_p_welch": 0.43,
+ "aov_p_mw": 0.3017,
+ "rpu_control": 201.69,
+ "rpu_treatment": 208.78,
+ "rpu_diff": 7.09,
+ "rpu_ci": [
+  4.06,
+  10.08
+ ],
+ "perr_control": 0.0179,
+ "perr_treatment": 0.0213,
+ "perr_p": 0.0004,
+ "monthly_incremental_orders": 3145,
+ "monthly_incremental_revenue": 1094460
+}

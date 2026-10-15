@@ -1,0 +1,5 @@
+ProductCode,ProductName,Segment,Collateral
+PF,Personal Finance,Retail,Unsecured
+AF,Auto Finance,Retail,Secured
+CD,Consumer Durables,Retail,Unsecured
+SME,SME Finance,Business,Secured
